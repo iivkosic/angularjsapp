@@ -1,0 +1,262 @@
+{"data": [
+  {
+    "card": {
+      "template": "app/core/directives/ms-card/templates/template-1/template-1.html",
+      "media": {
+        "image": {
+          "src": "assets/images/etc/timeline-alj.jpg",
+          "alt": "Alila Jakarta"
+        }
+      },
+      "title": "Alila Jakarta",
+      "subtitle": "Arrival to hotel Alila Jakarta",
+      "text": "Guest checked in to hotel"
+    },
+    "reservation": {
+      "id": "AVdiijGGE36IuM1Nrn7-",
+      "clientId": "ALILA",
+      "profileId": "AVdiavLIYuzD-vV0m_fP",
+      "confirmationNo": "604817",
+      "resvStatus": "CHECKED IN",
+      "businessDatCreated": "2016-08-02",
+      "arrival": "2016-09-21",
+      "departure": "2016-09-23",
+      "paymentMethod": {
+        "paymentMethodId": "MC",
+        "description": "MC - Master Card",
+        "trxCode": {
+          "trxCode": "9082",
+          "trxCodeType": "PAYMENT",
+          "description": "MC - Master Card",
+          "tcGroup": "PAY",
+          "tcSubGroup": "FO PAY",
+          "tcGroupDescription": "Payment",
+          "tcSubGroupDescription": "FO Payment"
+        }
+      },
+      "walkin": false,
+      "dailyElements": [
+        {
+          "stayDate": "2016-09-21",
+          "room": {
+            "category": "11065",
+            "type": "STE",
+            "label": "EXN",
+            "description": "Executive Suite Non Smoking"
+          },
+          "bookedRoom": {
+            "category": "11073",
+            "type": "EXC",
+            "label": "EKN",
+            "description": "Executive King Non Smoking"
+          },
+          "rate": {
+            "code": "VBAR",
+            "category": "BAR",
+            "categoryDescription": "Best Available Rate",
+            "rateClass": "DIR",
+            "rateClassDescription": "Best Available Rate"
+          },
+          "pseudoRoom": false,
+          "adults": 1,
+          "children": 0,
+          "noRooms": 1,
+          "marketCode": {
+            "code": "BAR",
+            "description": "BAR - Best Available Rate",
+            "group": "DIR",
+            "groupDescription": "Direct Reservation"
+          },
+          "grossRate": 1443228,
+          "roomRevenue": 1192750,
+          "foodRevenue": 0,
+          "otherRevenue": 0,
+          "totalRevenue": 1192750,
+          "nonRevenue": 0,
+          "currencyCode": "IDR",
+          "sourceCode": "BKG",
+          "channel": "OTW",
+          "updateDate": "2016-09-22"
+        },
+        {
+          "stayDate": "2016-09-22",
+          "room": {
+            "category": "11065",
+            "type": "STE",
+            "label": "EXN",
+            "description": "Executive Suite Non Smoking"
+          },
+          "bookedRoom": {
+            "category": "11073",
+            "type": "EXC",
+            "label": "EKN",
+            "description": "Executive King Non Smoking"
+          },
+          "rate": {
+            "code": "VBAR",
+            "category": "BAR",
+            "categoryDescription": "Best Available Rate",
+            "rateClass": "DIR",
+            "rateClassDescription": "Best Available Rate"
+          },
+          "pseudoRoom": false,
+          "adults": 1,
+          "children": 0,
+          "noRooms": 1,
+          "marketCode": {
+            "code": "BAR",
+            "description": "BAR - Best Available Rate",
+            "group": "DIR",
+            "groupDescription": "Direct Reservation"
+          },
+          "grossRate": 1443228,
+          "roomRevenue": 1192750,
+          "foodRevenue": 0,
+          "otherRevenue": 0,
+          "totalRevenue": 1192750,
+          "nonRevenue": 0,
+          "currencyCode": "IDR",
+          "sourceCode": "BKG",
+          "channel": "OTW",
+          "updateDate": "2016-09-22"
+        },
+        {
+          "stayDate": "2016-09-23",
+          "room": {
+            "category": "11065",
+            "type": "STE",
+            "label": "EXN",
+            "description": "Executive Suite Non Smoking"
+          },
+          "bookedRoom": {
+            "category": "11073",
+            "type": "EXC",
+            "label": "EKN",
+            "description": "Executive King Non Smoking"
+          },
+          "rate": {
+            "code": "VBAR",
+            "category": "BAR",
+            "categoryDescription": "Best Available Rate",
+            "rateClass": "DIR",
+            "rateClassDescription": "Best Available Rate"
+          },
+          "pseudoRoom": false,
+          "adults": 0,
+          "children": 0,
+          "noRooms": 0,
+          "marketCode": {
+            "code": "BAR",
+            "description": "BAR - Best Available Rate",
+            "group": "DIR",
+            "groupDescription": "Direct Reservation"
+          },
+          "grossRate": 0,
+          "roomRevenue": 0,
+          "foodRevenue": 0,
+          "otherRevenue": 0,
+          "totalRevenue": 0,
+          "nonRevenue": 0,
+          "currencyCode": "IDR",
+          "sourceCode": "BKG",
+          "channel": "OTW",
+          "updateDate": "2016-09-22"
+        }
+      ],
+      "cancelation": null,
+      "comments": [
+        {
+          "type": "IN HOUSE",
+          "comment": "IDR 1.192.750++ 2BF 4PCS LNDRY 30MNT SPA TO P/A\nP/U SVC IDR 605.000 Nett to P/A"
+        },
+        {
+          "type": "CASHIER",
+          "comment": "IDR 1.192.750++ 2BF 4PCS LNDRY 30MNT SPA TO P/A"
+        }
+      ],
+      "memberships": [],
+      "externalId": {
+        "externalId": "360552",
+        "resortId": "ALJ",
+        "profileId": "233542"
+      },
+      "externalAudit": {
+        "resortId": "ALJ",
+        "createdByUserId": "1302",
+        "updatedByUserId": "1302",
+        "createdAt": "2016-08-02",
+        "updatedAt": "2016-09-22"
+      },
+      "indexDate": "2016-09-25T18:06:24.165"
+    },
+    "messageInfoResponse": null,
+    "icon": "icon-hotel",
+    "time": "2016-09-21",
+    "event": "Stay"
+  },
+  {
+    "card": {
+      "template": "app/core/directives/ms-card/templates/template-6/template-6.html",
+      "media": {
+        "image": {
+          "src": null,
+          "alt": null
+        }
+      },
+      "title": "Subject: Thank you for staying at Alila Jakarta",
+      "subtitle": "Email Communication",
+      "text": "Email Sent to lbovel.455647@guest.booking.com from mailbox jakarta@alilahotels.com"
+    },
+    "reservation": null,
+    "messageInfoResponse": {
+      "ts": 1474772250,
+      "_id": "e8be3f40936a4907964e2a31f94003ff",
+      "sender": "jakarta@alilahotels.com",
+      "template": null,
+      "subject": "Thank you for staying at Alila Jakarta",
+      "email": "lbovel.455647@guest.booking.com",
+      "opens": 1,
+      "clicks": 0,
+      "state": "sent",
+      "tags": [
+        "10000005",
+        "Alila Post Stay"
+      ],
+      "smtp_events": [
+        {
+          "ts": 1474772254,
+          "type": "sent",
+          "diag": "250 OK id=1bnzdD-000Fx9-EO host=mx6.booking.com",
+          "source_ip": "198.2.135.25",
+          "destination_ip": "5.57.20.179",
+          "size": 46602
+        },
+        {
+          "ts": 1474772254,
+          "type": "sent",
+          "diag": "250 OK id=1bnzdD-000Fx9-EO host=mx6.booking.com",
+          "source_ip": "198.2.135.25",
+          "destination_ip": "5.57.20.179",
+          "size": 46602
+        }
+      ],
+      "opens_detail": [
+        {
+          "ts": 1474773642,
+          "ip": "115.178.212.40",
+          "location": "Jakarta Raya, ID",
+          "ua": "Mobile/iOS/iOS/Mobile Safari/Mobile Safari"
+        }
+      ],
+      "clicks_detail": [],
+      "resends": [],
+      "bgtools_code": null,
+      "diag": null,
+      "bounce_description": null
+    },
+    "icon": "icon-email-open",
+    "time": "2016-09-25",
+    "event": "Email"
+  }
+]
+}

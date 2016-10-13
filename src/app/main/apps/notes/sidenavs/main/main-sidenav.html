@@ -1,0 +1,65 @@
+<!-- SIDENAV CONTENT -->
+<div ms-scroll class="content">
+
+    <!-- NAVIGATION LIST -->
+    <md-list>
+
+      <!-- NOTES -->
+      <md-list-item ng-click="vm.filterChange('checked-yes')" ng-class="{'selected':vm.listType ==='notes'}">
+          <div layout="row" layout-align="start center">
+              <md-icon md-font-icon="icon-check" class="mr-16"></md-icon>
+              <span>
+                  Show checked
+              </span>
+          </div>
+      </md-list-item>
+
+      <md-list-item ng-click="vm.filterChange('checked-all')" ng-class="{'selected':vm.listType ==='notes'}">
+          <div layout="row" layout-align="start center">
+              <md-icon md-font-icon="icon-lightbulb" class="mr-16"></md-icon>
+              <span>
+                  Show all
+              </span>
+          </div>
+      </md-list-item>
+      <!-- / NOTES -->
+
+                  <md-divider></md-divider>
+
+        <!-- LABELS -->
+        <md-subheader class="md-no-sticky"><span> Labels</span></md-subheader>
+
+
+        <!-- NOTES -->
+        <md-list-item ng-click="vm.filterChange('labels-all')" ng-class="{'selected':vm.listType ==='notes'}">
+            <div layout="row" layout-align="start center">
+                <span>
+                    All labels
+                </span>
+            </div>
+        </md-list-item>
+        <!-- / NOTES -->
+
+        <!-- LABEL -->
+        <md-list-item ng-repeat="label in vm.labels"
+                      ng-class="{'selected':vm.noteListType.name === label.name}" class="label" layout="row"
+                      layout-align="start center" flex>
+
+                          <md-icon class="mr-16" md-font-icon="icon-label"
+                                   ng-style="{color: label.color}"></md-icon>
+
+            <span class="label-name text-transclude" flex ng-hide="editLabelForm.$visible"
+                  ng-click="vm.filterChange(label)" ng-style="{'color': label.color}">
+                {{label.name}}
+            </span>
+            <span flex editable-text="label.name" e-form="editLabelForm" ng-show="editLabelForm.$visible">
+                {{label.name}}
+            </span>
+        </md-list-item>
+        <!-- / LABEL -->
+
+    </md-list>
+    <!-- / NAVIGATION LIST -->
+
+</div>
+<!-- / SIDENAV CONTENT -->

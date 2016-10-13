@@ -1,0 +1,87 @@
+<!-- DIALOG -->
+<md-dialog class="contact-dialog" aria-label="New Task">
+
+    <!-- <form name="contactForm" class="md-inline-form" novalidate> -->
+
+        <!-- DIALOG TOOLBAR -->
+        <md-toolbar class="md-accent md-tall" layout="column">
+
+            <!-- TOOLBAR TOP -->
+            <div class="md-toolbar-tools md-toolbar-tools-top" layout="row" layout-align="space-between center">
+                <span class="title">New profile</span>
+                <md-button class="md-icon-button" ng-click="vm.closeDialog()" aria-label="Close dialog" >
+                    <md-icon md-font-icon="icon-close"></md-icon>
+                </md-button>
+            </div>
+            <!-- / TOOLBAR TOP -->
+
+            <!-- TOOLBAR MIDDLE -->
+            <div class="md-toolbar-tools md-toolbar-tools-middle" flex layout="column" layout-align="center center">
+                <div layout="column" layout-align="center center">
+                    <img src="assets/images/avatars/profile.jpg" class="md-avatar avatar contact-avatar huge"
+                         alt="{{vm.contact.name}}"/>
+                    <div class="contact-name">{{vm.contact.name}}</div>
+                </div>
+            </div>
+            <!-- / TOOLBAR MIDDLE -->
+
+
+        </md-toolbar>
+        <!-- / DIALOG TOOLBAR -->
+
+        <!-- DIALOG CONTENT -->
+        <md-dialog-content ms-scroll>
+
+          <!-- HORIZONTAL STEPPER -->
+                <form name="horizontalStepper" ms-horizontal-stepper ng-submit="vm.submitHorizontalStepper()"
+                      ng-model="vm.horizontalStepper" novalidate>
+
+                      <!-- Step 1 -->
+                      <ms-horizontal-stepper-step ng-form="step1" step="1" step-title="'Personal Information'">
+                          <div ng-include="'app/main/search/dialogs/profile/steps/step-1.html'"></div>
+                      </ms-horizontal-stepper-step>
+                      <!-- / Step 1 -->
+
+                      <!-- Step 2 -->
+                      <ms-horizontal-stepper-step ng-form="step2" step="2" step-title="'Home Address'">
+                            <div ng-include="'app/main/search/dialogs/profile/steps/step-2.html'"></div>
+                      </ms-horizontal-stepper-step>
+                      <!-- / Step 2 -->
+
+                      <!-- Step 3 -->
+                      <ms-horizontal-stepper-step ng-form="step3" step="3" step-title="'Communication'">
+                          <div ng-include="'app/main/search/dialogs/profile/steps/step-3.html'"></div>
+                      </ms-horizontal-stepper-step>
+                      <!-- / Step 3 -->
+
+                          </form>
+
+        </md-dialog-content>
+        <!-- / DIALOG CONTENT -->
+
+        <!-- DIALOG ACTIONS -->
+        <!-- <md-dialog-actions layout="row" layout-align="space-between center">
+            <div layout="row" layout-align="start center">
+                <md-button type="submit" ng-if="!vm.newContact" ng-click="vm.saveContact()"
+                           class="send-button md-accent md-raised"
+                           ng-disabled="contactForm.$invalid || contactForm.$pristine"
+                           aria-label="SAVE">
+                    SAVE
+                </md-button>
+
+                <md-button type="submit" ng-if="vm.newContact" ng-click="vm.addNewContact()"
+                           class="send-button md-accent md-raised"
+                           ng-disabled="contactForm.$invalid || contactForm.$pristine"
+                           aria-label="Add Task">
+                    ADD PROFILE
+                </md-button>
+
+            </div>
+
+        </md-dialog-actions> -->
+        <!-- / DIALOG ACTIONS -->
+
+    <!-- </form> -->
+
+</md-dialog>
+<!-- / DIALOG -->

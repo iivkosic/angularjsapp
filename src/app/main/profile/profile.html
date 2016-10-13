@@ -1,0 +1,209 @@
+<div id="profile" class="page-layout simple tabbed">
+
+    <!-- HEADER -->
+    <div class="header md-accent-bg" layout="row" layout-align="center center" layout-gt-sm="row" layout-align-gt-sm="space-between center">
+        <!--<div class="user-info" layout="column" flex="100" layout-align="center center" layout-gt-sm="row" layout-align-gt-sm="start center">
+        -->   <div layout="row" layout-align="start center">
+             <div>
+            <!-- <img class="profile-image avatar huge" src="assets/images/avatars/profile.jpg"> -->
+            <div class="avatar-container" ng-class="vm.getCompletenessClass()">
+      <img src="assets/images/avatars/profile.jpg" alt="" class="avatar"/>
+    </div><!--.avatar-container-->
+          </div>
+          <div class="profile-info">
+            <div class="member-id">Profile ID: {{vm.profile.id}}</div>
+            <div class="name">{{vm.profile.first}} {{vm.profile.last}} </div>
+          <!-- <div>
+            <div class="detail-main">19.427 points</div>
+            <div class="detail-main">Black level</div>
+          </div> -->
+        </div>
+        </div>
+            <div layout="row" layout-align="start center">
+              <div class="p-16" layout="column"layout-align="center">
+                <div class="h4 secondary-text">STAYS</div>
+                <div class="md-display-1">
+                    {{vm.stays[0].doc_count ? vm.stays[0].doc_count : 0}}
+                </div>
+                </div>
+                     <div class="p-16" layout="column"layout-align="center">
+                <div class="h4 secondary-text">CANCELLATIONS</div>
+                <div class="md-display-1">
+                  {{vm.cancel[0].doc_count ? vm.cancel[0].doc_count : 0}}
+                </div>
+                </div>
+
+              <div class="p-16" layout="column"layout-align="center">
+                <div class="h4 secondary-text">UPCOMING STAYS</div>
+                <div class="md-display-1">
+                    {{vm.stays_upc[0].doc_count ? vm.stays_upc[0].doc_count : 0}}
+                </div>
+                </div>
+                     <div class="p-16" layout="column"layout-align="center">
+                <div class="h4 secondary-text">NO SHOW</div>
+                <div class="md-display-1">
+                  {{vm.no_show[0].doc_count ? vm.no_show[0].doc_count : 0}}
+                </div>
+                </div>
+              </div>
+
+              <!-- <div class="p-16 verticalLine" layout="column" layout-align="center">
+                 <div layout="row" layout-align="start center">
+                    <div class="p-16" layout="column"layout-align="center">
+                <div class="h4 secondary-text">ROOM REVENUE</div>
+                <div class="md-display-1">
+                    ${{vm.room_revenue}}
+                </div>
+              </div>
+                </div>
+                 <div layout="row" layout-align="start center">
+                     <div class="p-16" layout="column"layout-align="center">
+                <div class="h4 secondary-text">FOOD REVENUE</div>
+                <div class="md-display-1">
+                  ${{vm.food_revenue}}
+                </div>
+                </div>
+              </div>
+              </div>
+
+              <div class="p-16" layout="column"layout-align="center">
+                 <div layout="row" layout-align="start center">
+                    <div class="p-16" layout="column"layout-align="center">
+                <div class="h4 secondary-text">OTHER REVENUE</div>
+                <div class="md-display-1">
+                    ${{vm.other_revenue}}
+                </div>
+              </div>
+                </div>
+                 <div layout="row" layout-align="start center">
+                     <div class="p-16" layout="column"layout-align="center">
+                <div class="h4 secondary-text">TOTAL REVENUE</div>
+                <div class="md-display-1">
+                  ${{vm.total_revenue}}
+                </div>
+                </div>
+              </div>
+              </div>
+
+                <div class="p-16" layout="column"
+                layout-align="center">
+                <div class="h4 secondary-text">ADR</div>
+                <div class="md-display-1">
+                  ${{vm.avgRate}}
+                </div>
+                </div> -->
+
+          <!-- <div class="customer-value" layout="column" flex="30" layout-align="center end" layout-gt-sm="column" layout-align-gt-sm="end center">
+            <div class="value-no"><span ng-class="vm.getValueClass(vm.customerValue)">{{vm.customerValue}}</span>/100</div>
+            <div class="graph" layout="row">
+              <div flex="30" class="graph-title">Recency</div>
+              <div flex="70">
+                <div ng-class="vm.getScoreClass(vm.profile.rfmScore.recency)"
+                  ng-style="{ 'width': vm.profile.rfmScore.recency + '%' }">
+                {{vm.profile.rfmScore.recency}}%</div>
+              </div>
+            </div>
+            <div class="graph" layout="row">
+              <div flex="30" class="graph-title">Frequency</div>
+              <div flex="70">
+                <div ng-class="vm.getScoreClass(vm.profile.rfmScore.frequency)"
+                  ng-style="{ 'width': vm.profile.rfmScore.frequency + '%' }">
+                {{vm.profile.rfmScore.frequency}}%</div>
+              </div>
+            </div>
+            <div class="graph" layout="row">
+              <div flex="30" class="graph-title">Monetary</div>
+              <div flex="70">
+                <div ng-class="vm.getScoreClass(vm.profile.rfmScore.monetary)"
+                 ng-style="{ 'width': vm.profile.rfmScore.monetary + '%' }">
+                  {{vm.profile.rfmScore.monetary}}%</div>
+              </div>
+            </div>
+        </div> -->
+    </div>
+    <!-- / HEADER -->
+
+    <!-- CONTENT -->
+    <div class="content" flex>
+
+        <md-tabs md-dynamic-height>
+            <md-tab>
+                <md-tab-label>
+                    <span>Activity Timeline</span>
+                </md-tab-label>
+                <md-tab-body>
+                    <md-content class="timeline-tab"
+                                ng-include="'app/main/profile/tabs/timeline/timeline.html'">
+                    </md-content>
+                </md-tab-body>
+            </md-tab>
+            <md-tab>
+                <md-tab-label>
+                    <span>Profile Details</span>
+                </md-tab-label>
+                <md-tab-body>
+                    <md-content class="about-tab"
+                                ng-include="'app/main/profile/tabs/about/about.html'">
+                    </md-content>
+                </md-tab-body>
+            </md-tab>
+            <md-tab>
+                <md-tab-label>
+                    <span>Membership</span>
+                </md-tab-label>
+                <md-tab-body>
+                    <md-content class="about-tab"
+                                ng-include="'app/main/profile/tabs/membership/membership.html'">
+                    </md-content>
+                </md-tab-body>
+            </md-tab>
+            <md-tab>
+                <md-tab-label>
+                    <span>Notes</span>
+                </md-tab-label>
+                <md-tab-body>
+                    <md-content class="notes-tab"
+                                ng-include="'app/main/profile/tabs/notes/notes.html'">
+                    </md-content>
+                </md-tab-body>
+            </md-tab>
+            <md-tab>
+                <md-tab-label>
+                    <span>Preferences</span>
+                </md-tab-label>
+                <md-tab-body>
+                    <md-content class="preferences-tab"
+                                ng-include="'app/main/profile/tabs/preferences/preferences.html'">
+                    </md-content>
+                </md-tab-body>
+            </md-tab>
+            <md-tab>
+                <md-tab-label>
+                    <span>Tags</span>
+                </md-tab-label>
+                <md-tab-body>
+                    <md-content class="tags-tab"
+                                ng-include="'app/main/profile/tabs/tags/tags.html'">
+                    </md-content>
+                </md-tab-body>
+            </md-tab>
+        </md-tabs>
+
+    </div>
+    <!-- / CONTENT -->
+
+</div>
+<script>
+$('.avatar-container').on('click',function(){
+  if ($(this).find('.info').length <= 0) {
+    $(this).append('<div class="info"><div class="info-inner"></div></div>');
+  }
+
+  var $info = $(this).find('.info'),
+      $inner= $(this).find('.info-inner'),
+      $p    = $(this).attr("class").match(/p-av-\w+/).toString().substring(5);
+
+  $inner.text($p+'%');
+  $info.toggleClass('js-active');
+});
+</script>

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "93fa432e-4f53-49dc-9088-96d11fbbb0da",
+    "idClient": "DEMO",
+    "idResort": null,
+    "name": "Test template 2",
+    "type": "smarty",
+    "category": "transactional",
+    "subject": "Test Email",
+    "fromEmail": "info@hotmark-crm.com",
+    "fromName": "HotMark CRM",
+    "replyEmail": "info@hotmark-crm.com",
+    "bccEmails": ["test@mail.com", "yo@bitch.com"],
+    "metadata": {
+      "testMetadata": "Test metadata value"
+    },
+    "tags": [
+      "test"
+    ],
+    "updatedBy": "311c6c55-492c-4761-8a03-e03d573053df",
+    "createdAt": 1462545148827,
+    "updatedAt": 1462545148827,
+    "enabled": true
+  },
+  {
+    "id": "1617699a-7012-4509-b6ca-214743ab65bc",
+    "idClient": "DEMO",
+    "idResort": null,
+    "name": "Test template",
+    "type": "smarty",
+    "category": "transactional",
+    "subject": "Test Email",
+    "fromEmail": "info@hotmark-crm.com",
+    "fromName": "HotMark CRM",
+    "replyEmail": "info@hotmark-crm.com",
+    "bccEmails": [],
+    "metadata": {
+      "testMetadata": "Test metadata value"
+    },
+    "tags": [
+      "test"
+    ],
+    "updatedBy": "311c6c55-492c-4761-8a03-e03d573053df",
+    "createdAt": 1462545006092,
+    "updatedAt": 1462545006092,
+    "enabled": true
+  }
+]

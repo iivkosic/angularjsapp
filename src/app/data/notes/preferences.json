@@ -1,0 +1,1058 @@
+{
+		"preferences": [{
+			"RESORT": "ALJ",
+			"PREFERENCE": "JP",
+			"DESCRIPTION": "Jakarta Post",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "KOM",
+			"DESCRIPTION": "Kompas",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "JS",
+			"DESCRIPTION": "Jakarta Shinbun",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CH",
+			"DESCRIPTION": "Chinese Newspaper",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NS",
+			"DESCRIPTION": "Non-Smoking Room",
+			"PREFERENCE_TYPE": "SMOKING"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "G",
+			"DESCRIPTION": "Ground Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "L",
+			"DESCRIPTION": "Lobby",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "1",
+			"DESCRIPTION": "1st Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "2",
+			"DESCRIPTION": "2nd Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "3",
+			"DESCRIPTION": "3rd Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "PPV",
+			"DESCRIPTION": "President  Palace's View",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SM",
+			"DESCRIPTION": "Smoking",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "AEP",
+			"DESCRIPTION": "Alila Experience Platinum",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "AEB",
+			"DESCRIPTION": "Alila Experience Black",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "VEG",
+			"DESCRIPTION": "Vegetarian",
+			"PREFERENCE_TYPE": "CULINARY"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "VGN",
+			"DESCRIPTION": "Vegan",
+			"PREFERENCE_TYPE": "CULINARY"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "GLF",
+			"DESCRIPTION": "Gluten-free",
+			"PREFERENCE_TYPE": "CULINARY"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "LAF",
+			"DESCRIPTION": "Lactose-free",
+			"PREFERENCE_TYPE": "CULINARY"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "ALL",
+			"DESCRIPTION": "Allergies",
+			"PREFERENCE_TYPE": "CULINARY"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "MTC",
+			"DESCRIPTION": "Meet the Chef",
+			"PREFERENCE_TYPE": "CULINARY"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "LC",
+			"DESCRIPTION": "Local cuisine",
+			"PREFERENCE_TYPE": "CULINARY"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "HC",
+			"DESCRIPTION": "Healthy cuisine",
+			"PREFERENCE_TYPE": "CULINARY"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "PRI",
+			"DESCRIPTION": "Private",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "DIS",
+			"DESCRIPTION": "Discreet",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "IND",
+			"DESCRIPTION": "Indulgent",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "ENV",
+			"DESCRIPTION": "Environmentally Conscious",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "ART",
+			"DESCRIPTION": "Arts, Film & Theatre",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CPL",
+			"DESCRIPTION": "Couple Celebration",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CLN",
+			"DESCRIPTION": "Culinary",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "DIV",
+			"DESCRIPTION": "Diving",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "FH",
+			"DESCRIPTION": "Family Holiday",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NNA",
+			"DESCRIPTION": "Nature & Adventure",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SPA",
+			"DESCRIPTION": "Spa and Wellness",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "24H",
+			"DESCRIPTION": "Guaranteed Room Availability 24hours prior to arrival",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "4DA",
+			"DESCRIPTION": "Guaranteed Room Availability until 4pm day of arrival",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "3PM",
+			"DESCRIPTION": "Late Check-Out 3pm",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "48H",
+			"DESCRIPTION": "Guaranteed Room Availability 48hours prior to arrival",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "6PM",
+			"DESCRIPTION": "Late Check-Out 6pm",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "9AM",
+			"DESCRIPTION": "Early Check-In 9am",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "AML",
+			"DESCRIPTION": "Local Amenity",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BEN",
+			"DESCRIPTION": "Local Brand Benefit",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BUT",
+			"DESCRIPTION": "Butler Service",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CAM",
+			"DESCRIPTION": "Choice of Amenity",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CHO",
+			"DESCRIPTION": "COA - Chocolates",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "FRU",
+			"DESCRIPTION": "Fresh (fruit, vegetable cudite, etc.)",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "JUI",
+			"DESCRIPTION": "COA - Fruit Juices",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NEWS",
+			"DESCRIPTION": "Choice of Newspaper",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "TEA",
+			"DESCRIPTION": "COA - Tea Setup / Afternoon Tea",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "UP1",
+			"DESCRIPTION": "Upgrade to Next Room Category",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "UP2",
+			"DESCRIPTION": "Double Upgrade",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "UP3",
+			"DESCRIPTION": "Upgrade to Suite",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "WIR",
+			"DESCRIPTION": "COA - Red Wine",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "WIW",
+			"DESCRIPTION": "COA - White Wine",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "DG",
+			"DESCRIPTION": "Disabled Guest, Wheelchair Accessible",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "HAN",
+			"DESCRIPTION": "Special Assistance (disabled, visually/hearing impaired)",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "AA",
+			"DESCRIPTION": "Allergy Setup",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "LO",
+			"DESCRIPTION": "Low Floor",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "HI",
+			"DESCRIPTION": "High Floor",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NS",
+			"DESCRIPTION": "Non Smoking Room",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "PX",
+			"DESCRIPTION": "Extra Pillows",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "HX",
+			"DESCRIPTION": "Extra Hangers",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "KING",
+			"DESCRIPTION": "King Bed",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "TWIN",
+			"DESCRIPTION": "Twin Bed (apart)",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "COT",
+			"DESCRIPTION": "Cot",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NS",
+			"DESCRIPTION": "Non Smoking",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SM",
+			"DESCRIPTION": "Smoking",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BS",
+			"DESCRIPTION": "Bathtub & Shower",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CN",
+			"DESCRIPTION": "Connecting Room",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BT",
+			"DESCRIPTION": "Bathtub",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BY",
+			"DESCRIPTION": "Balcony",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BW",
+			"DESCRIPTION": "Big Window",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CR",
+			"DESCRIPTION": "Corner Room",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "HF",
+			"DESCRIPTION": "High Floor",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "LF",
+			"DESCRIPTION": "Lower Floor",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NL",
+			"DESCRIPTION": "Near Lift",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "PPV",
+			"DESCRIPTION": "President Palace's View",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "PV",
+			"DESCRIPTION": "Pool View",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SH",
+			"DESCRIPTION": "Shower",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SV",
+			"DESCRIPTION": "Street View",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "ALE",
+			"DESCRIPTION": "COA - Beer",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SAL",
+			"DESCRIPTION": "COA - Salty Snack",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SAV",
+			"DESCRIPTION": "COA - Savory (cheese, charcuterie, etc.)",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SOF",
+			"DESCRIPTION": "COA - Soft Drinks, Sodas",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SPC",
+			"DESCRIPTION": "COA - Spicy Snack",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SWE",
+			"DESCRIPTION": "COA - Sweet Snack",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "WAT",
+			"DESCRIPTION": "Complimentary Bottled Water",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "WEB",
+			"DESCRIPTION": "Complimentary Internet Access",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SM",
+			"DESCRIPTION": "Smoking Room",
+			"PREFERENCE_TYPE": "GHA"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SM",
+			"DESCRIPTION": "Smooking Room",
+			"PREFERENCE_TYPE": "SMOKING"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "ART",
+			"DESCRIPTION": "Arts",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CPL",
+			"DESCRIPTION": "Couple Celebration",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CLN",
+			"DESCRIPTION": "Culinary",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CNT",
+			"DESCRIPTION": "Culture and Tradition",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "DIV",
+			"DESCRIPTION": "Diving",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "FH",
+			"DESCRIPTION": "Family Holiday",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NNA",
+			"DESCRIPTION": "Nature & Adventure",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SER",
+			"DESCRIPTION": "Social/Environment Responsibility",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SPA",
+			"DESCRIPTION": "Spa and Wellness",
+			"PREFERENCE_TYPE": "LEVEL"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BT",
+			"DESCRIPTION": "Bathtub",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BW",
+			"DESCRIPTION": "Big Window",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BY",
+			"DESCRIPTION": "Balcony",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CN",
+			"DESCRIPTION": "Connecting Room",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CR",
+			"DESCRIPTION": "Corner Room",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SH",
+			"DESCRIPTION": "Shower",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "HF",
+			"DESCRIPTION": "High Floor",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "LF",
+			"DESCRIPTION": "Lower Floor",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NL",
+			"DESCRIPTION": "Near Lift",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NS",
+			"DESCRIPTION": "Non Smoking",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SV",
+			"DESCRIPTION": "Street View",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "PV",
+			"DESCRIPTION": "Pool View",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BS",
+			"DESCRIPTION": "Bathtub & Shower",
+			"PREFERENCE_TYPE": "ROOM FEATURES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "08TH",
+			"DESCRIPTION": "08th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "09TH",
+			"DESCRIPTION": "09th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "10TH",
+			"DESCRIPTION": "10th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "11TH",
+			"DESCRIPTION": "11th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "12TH",
+			"DESCRIPTION": "12th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "14TH",
+			"DESCRIPTION": "14th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "15TH",
+			"DESCRIPTION": "15th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "16TH",
+			"DESCRIPTION": "16th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "17TH",
+			"DESCRIPTION": "17th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "18TH",
+			"DESCRIPTION": "18th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "19TH",
+			"DESCRIPTION": "19th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "20TH",
+			"DESCRIPTION": "20th Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "21ST",
+			"DESCRIPTION": "21st Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "22ND",
+			"DESCRIPTION": "22nd Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "23RD",
+			"DESCRIPTION": "23rd Floor",
+			"PREFERENCE_TYPE": "FLOOR"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SA",
+			"DESCRIPTION": "Special Attention Guest",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "UF",
+			"DESCRIPTION": "Forced Upgrade",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "XB",
+			"DESCRIPTION": "Extra Bed",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "ASG",
+			"DESCRIPTION": "Alila Spa Gift",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "JNB",
+			"DESCRIPTION": "Join Bed",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "XLB",
+			"DESCRIPTION": "X-Lounge Benefit",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NLB",
+			"DESCRIPTION": "No X-Lounge Benefit",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "EA",
+			"DESCRIPTION": "Early Arrival",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "LA",
+			"DESCRIPTION": "Late Arrival",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "LC",
+			"DESCRIPTION": "Late Departure",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "INC",
+			"DESCRIPTION": "Incognito",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "DNM",
+			"DESCRIPTION": "Do Not Move",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "FRT",
+			"DESCRIPTION": "Fruit",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CB",
+			"DESCRIPTION": "Baby Coat",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "IB",
+			"DESCRIPTION": "Iron & Board",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "WHC",
+			"DESCRIPTION": "Wheelchair",
+			"PREFERENCE_TYPE": "SPECIALS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "JP",
+			"DESCRIPTION": "Jakarta Post",
+			"PREFERENCE_TYPE": "NEWSPAPER"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "JS",
+			"DESCRIPTION": "Jakarta Shinbun",
+			"PREFERENCE_TYPE": "NEWSPAPER"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "KOM",
+			"DESCRIPTION": "Kompas",
+			"PREFERENCE_TYPE": "NEWSPAPER"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CN",
+			"DESCRIPTION": "Chinese Newspaper",
+			"PREFERENCE_TYPE": "NEWSPAPER"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "NON",
+			"DESCRIPTION": "No Newspaper",
+			"PREFERENCE_TYPE": "NEWSPAPER"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "MBALC",
+			"DESCRIPTION": "Remove Alcohol",
+			"PREFERENCE_TYPE": "MINIBAR OPTIONS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "MBALL",
+			"DESCRIPTION": "Remove All Minibar",
+			"PREFERENCE_TYPE": "MINIBAR OPTIONS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "DRA",
+			"DESCRIPTION": "Amt Daily Replenish",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "ANY",
+			"DESCRIPTION": "Anniversary",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BC",
+			"DESCRIPTION": "Birthday Cake",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "BGM",
+			"DESCRIPTION": "Birthday Card  from GM",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "CHO",
+			"DESCRIPTION": "Chocolate",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "FCG",
+			"DESCRIPTION": "Family Card GM",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "FLO",
+			"DESCRIPTION": "Flowers",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "FRB",
+			"DESCRIPTION": "Fruit Basket",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "RWH",
+			"DESCRIPTION": "Bottle of Red Wine",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "ROS",
+			"DESCRIPTION": "Bottle of Rose Wine",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "RWW",
+			"DESCRIPTION": "Bottle of White Wine",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "GF",
+			"DESCRIPTION": "Gift",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "HOM",
+			"DESCRIPTION": "Honeymooners",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "LSG",
+			"DESCRIPTION": "Long Staying Guest",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "SPC",
+			"DESCRIPTION": "Special amenities-see Traces",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "TGM",
+			"DESCRIPTION": "Treatment per GM",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "WGM",
+			"DESCRIPTION": "Wedding Card from GM",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "WLG",
+			"DESCRIPTION": "Welcome Letter from GM",
+			"PREFERENCE_TYPE": "AMENITIES"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "ADV",
+			"DESCRIPTION": "Adventure Sports",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "TECH",
+			"DESCRIPTION": "Technology",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "THE",
+			"DESCRIPTION": "Theatre",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "TOU",
+			"DESCRIPTION": "Tourist Interest",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "TRVL",
+			"DESCRIPTION": "Travel",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "WIN",
+			"DESCRIPTION": "Wine",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "WSP",
+			"DESCRIPTION": "Water Sport",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "XNY",
+			"DESCRIPTION": "X-mast / New Year",
+			"PREFERENCE_TYPE": "INTERESTS"
+		},
+		{
+			"RESORT": "ALJ",
+			"PREFERENCE": "POOL",
+			"DESCRIPTION": "Swimming Pool",
+			"PREFERENCE_TYPE": "INTERESTS"
+		}]
+}

@@ -1,0 +1,59 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "name": "SPECIALS",
+            "color": "md-lime-300-bg"
+        },
+        {
+            "id": "2",
+            "name": "SMOKING",
+            "color": "md-pink-500-bg"
+        },
+        {
+            "id": "3",
+            "name": "FLOOR",
+            "color": "md-yellow-300-bg"
+        },
+        {
+            "id": "4",
+            "name": "ROOM FEATURES",
+            "color": "md-indigo-300-bg"
+        },
+        {
+            "id": "5",
+            "name": "GHA",
+            "color": "md-blue-300-bg"
+        },
+        {
+            "id": "6",
+            "name": "CULINARY",
+            "color": "md-cyan-300-bg"
+        },
+        {
+            "id": "7",
+            "name": "LEVEL",
+            "color": "md-green-300-bg"
+        },
+        {
+            "id": "8",
+            "name": "INTERESTS",
+            "color": "md-amber-500-bg"
+        },
+        {
+            "id": "10",
+            "name": "NEWSPAPER",
+            "color": "md-red-300-bg"
+        },
+        {
+            "id": "11",
+            "name": "MINIBAR OPTIONS",
+            "color": "md-teal-300-bg"
+        },
+        {
+            "id": "12",
+            "name": "AMENITIES",
+            "color": "md-orange-300-bg"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{"data": [
+               {
+                  "key": "GEN",
+                  "doc_count": 4937
+               },
+               {
+                  "key": "RES",
+                  "doc_count": 484
+               },
+               {
+                  "key": "PPM",
+                  "doc_count": 111
+               },
+               {
+                  "key": "OTH",
+                  "doc_count": 6
+               },
+               {
+                  "key": "GLITCH",
+                  "doc_count": 5
+                }
+              ] }

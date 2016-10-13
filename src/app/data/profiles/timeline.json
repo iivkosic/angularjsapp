@@ -1,0 +1,55 @@
+{
+    "data": [
+  {
+    "card": {
+      "template": "app/core/directives/ms-card/templates/template-1/template-1.html",
+      "media": {
+        "image": {
+          "src": "assets/images/etc/early-sunrise.jpg",
+          "alt": "Early Sunrise"
+        }
+      },
+      "title": "Arrival to",
+      "subtitle": "Arrival to hotelALJ",
+      "text": "Guest checked in to hotelALJ"
+    },
+    "icon": "icon-document",
+    "time": "2016-08-18",
+    "event": "Arrival"
+  },
+  {
+    "card": {
+      "template": "app/core/directives/ms-card/templates/template-1/template-1.html",
+      "media": {
+        "image": {
+          "src": "assets/images/etc/early-sunrise.jpg",
+          "alt": "Early Sunrise"
+        }
+      },
+      "title": "Arrival to",
+      "subtitle": "Arrival to hotelALJ",
+      "text": "Guest checked in to hotelALJ"
+    },
+    "icon": "icon-document",
+    "time": "2016-09-06",
+    "event": "Arrival"
+  },
+  {
+    "card": {
+      "template": "app/core/directives/ms-card/templates/template-1/template-1.html",
+      "media": {
+        "image": {
+          "src": "assets/images/etc/early-sunrise.jpg",
+          "alt": "Early Sunrise"
+        }
+      },
+      "title": "Arrival to",
+      "subtitle": "Arrival to hotelALJ",
+      "text": "Guest checked in to hotelALJ"
+    },
+    "icon": "icon-document",
+    "time": "2016-08-18",
+    "event": "Arrival"
+  }
+]
+}

@@ -1,0 +1,41 @@
+<!-- WIDGET 11 -->
+<ms-widget class="membership-card h-300" layout="column" flex="50" ng-repeat="card in vm.profile.memberships">
+
+    <!-- Front -->
+    <ms-widget-front ng-class="vm.getCardClass(card.level)" class="p-32 white-fg" layout="row" flex>
+
+      <div class="pb-32" layout-align="end center" flex>
+          <div class="h4 weight-500 pb-8">{{card.enrollmentCode}}</div>
+      </div>
+
+      <div layout="column" layout-align="space-between" flex>
+          <div class="h1 weight-500 pb-8" layout="row" layout-align="start center">
+              <span>{{vm.profile.first}} {{vm.profile.last}}</span>
+          </div>
+      </div>
+      <div layout="column" layout-align="space-between" flex>
+          <div class="h1 weight-500 pb-8" layout="row" layout-align="start center">
+              <span>{{card.level}}</span>
+          </div>
+      </div>
+          <div layout="column" layout-align="space-between" flex>
+              <div class="h1 weight-500 pb-8" layout="row" layout-align="start center">
+                  <span>{{card.cardNumber}}</span>
+              </div>
+
+      <div layout="column" layout-align="space-between" flex>
+          <div class="h1 weight-500 pb-8" layout="row" layout-align="start center">
+              <span>{{card.expirationDate}}</span>
+          </div>
+      </div>
+
+      <div layout="column" layout-align="space-between" flex>
+          <div class="h1 weight-500 pb-8" layout="row" layout-align="start center">
+              <img ng-src='assets/images/logos/DISCOVERY-LOGO-{{card.level}}.png'></img>
+          </div>
+      </div>
+    </ms-widget-front>
+    <!-- / Front -->
+
+</ms-widget>
+<!-- / WIDGET 11 -->

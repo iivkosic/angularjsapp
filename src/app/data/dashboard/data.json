@@ -1,0 +1,24 @@
+{
+  "total": [
+    {
+      "name": "Sent",
+      "number": "105",
+      "colorClass": "teal-fg"
+    },
+    {
+      "name": "Delivered",
+      "number": "639",
+      "colorClass": "deep-purple-fg"
+    },
+    {
+      "name": "Deliverability",
+      "number": "99.78%",
+      "colorClass": "light-blue-fg"
+    },
+    {
+      "name": "Average Click Rate",
+      "number": "7.89%",
+      "colorClass": "pink-fg"
+    }
+  ]
+}

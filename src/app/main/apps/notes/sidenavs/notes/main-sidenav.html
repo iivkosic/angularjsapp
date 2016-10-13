@@ -1,0 +1,43 @@
+<!-- SIDENAV CONTENT -->
+<div ms-scroll class="content">
+
+    <!-- NAVIGATION LIST -->
+    <md-list>
+
+        <!-- LABELS -->
+        <md-subheader class="md-no-sticky"><span> Labels</span></md-subheader>
+
+
+        <!-- NOTES -->
+        <md-list-item ng-click="vm.filterChangeNotes('labels-all')" ng-class="{'selected':vm.listType ==='notes'}">
+            <div layout="row" layout-align="start center">
+                <span>
+                    All labels
+                </span>
+            </div>
+        </md-list-item>
+        <!-- / NOTES -->
+
+        <!-- LABEL -->
+        <md-list-item ng-repeat="label in vm.notes_labels"
+                      ng-class="{'selected':vm.noteListType.name === label.key}" class="label" layout="row"
+                      layout-align="start center" flex>
+
+                          <md-icon class="mr-16" md-font-icon="icon-label"
+                                   ng-style="{color: label.color}"></md-icon>
+
+            <span class="label-name text-transclude" flex ng-hide="editLabelForm.$visible"
+                  ng-click="vm.filterChangeNotes(label)" ng-style="{'color': label.color}">
+                {{label.key}}
+            </span>
+            <span flex editable-text="label.key" e-form="editLabelForm" ng-show="editLabelForm.$visible">
+                {{label.key}}
+            </span>
+        </md-list-item>
+        <!-- / LABEL -->
+
+    </md-list>
+    <!-- / NAVIGATION LIST -->
+
+</div>
+<!-- / SIDENAV CONTENT -->

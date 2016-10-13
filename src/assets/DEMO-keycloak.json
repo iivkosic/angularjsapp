@@ -1,0 +1,10 @@
+{
+  "realm": "DEMO",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhzlhBhymV3pdqBsPvGByszlf34EWTfzUmDrYl2ebvUvkQJJOw8GYHZ4yu5urMlYDqY/cXfbhvkFzDO9DI20OyGagXB1BxftQbIX2A3d0sNsW+ew3gLyakHVx5+iNSjSxqwXxvr8ffoHKFvdsDmj/q7VDIXFLAWF5Weaz5XgRKPYxts9cZ8Dg5IGpmfsU1JELzGg1RjNp4H73fXmyXwZjRI0nJSs3qI14xk+i1NhdnQmgej6Mfu7wi0p7d2ava7S6LHrm5pOY1E57F67e3xi9OEvbIc9woPrlwUUPS2ALlbUEbp+kgjkvKLcrq9RsLQq9tKhqQYEDZHf2bLj7Tws93wIDAQAB",
+  "auth-server-url": "https://accounts1.hotmark-crm.com/auth",
+  "ssl-required": "none",
+  "resource": "webui",
+  "credentials": {
+    "secret": "97c67f79-840a-455b-a2ed-f27e1d9b0875"
+  }
+}

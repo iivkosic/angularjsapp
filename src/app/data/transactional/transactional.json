@@ -1,0 +1,26 @@
+{
+  "id": "ALILA",
+  "name": "ALILA",
+  "created_at": "2016-07-27 11:46:06.42805",
+  "status": "active",
+  "reputation": 61,
+  "sent_weekly": 35,
+  "sent_monthly": 312,
+  "sent_total": 846,
+  "first_sent_at": "2016-08-17 10:53:02.58017",
+  "hourly_quota": 330,
+  "sent_hourly": 0,
+  "last_30_days": {
+    "sent": 0,
+    "hard_bounces": 0,
+    "soft_bounces": 0,
+    "rejects": 0,
+    "complaints": 0,
+    "unsubs": 0,
+    "opens": 0,
+    "unique_opens": 0,
+    "clicks": 0,
+    "unique_clicks": 0
+  },
+  "notes": ""
+}

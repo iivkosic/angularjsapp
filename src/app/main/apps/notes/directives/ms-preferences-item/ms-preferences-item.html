@@ -1,0 +1,60 @@
+<md-card ng-class="MsPreferencesItem.note.color">
+    <!-- NOTE IMAGE -->
+    <img ng-if="MsPreferencesItem.note.image" class="md-card-image" ng-src="{{MsPreferencesItem.note.image}}">
+    <!-- / NOTE IMAGE -->
+
+    <md-card-content>
+      <!-- NOTE TITLE -->
+      <md-card-title ng-if="MsPreferencesItem.note.title">
+          <md-card-title-text>
+              {{MsPreferencesItem.note.title}}
+          </md-card-title-text>
+      </md-card-title>
+      <!-- / NOTE TITLE -->
+
+        <!-- NOTE DESCRIPTION -->
+        <md-description ng-if="MsPreferencesItem.note.description">
+            <span>{{MsPreferencesItem.note.description}}</span>
+        </md-description>
+        <!-- / NOTE DESCRIPTION -->
+
+        <!-- NOTE CHECKLIST -->
+        <div ng-if="MsPreferencesItem.note.checklist.length > 0" class="checklist">
+
+            <div class="checklist-item" ng-repeat="checkItem in  MsPreferencesItem.note.checklist" layout="row"
+                 layout-align="start center">
+                <md-checkbox ng-disabled="MsPreferencesItem.isSaving" ng-model="checkItem.checked"  ng-change="MsPreferencesItem.checkedChange(checkItem)"
+                             aria-label="{{checkItem.DESCRIPTION}}"></md-checkbox>
+                <span class="text-truncate" ng-class="{'md-secondary-text':checkItem.checked}" flex>{{checkItem.DESCRIPTION}}</span>
+            </div>
+
+        </div>
+
+        <md-card-title ng-if="MsPreferencesItem.note.checklist.length == 0">
+            <span>No items</span>
+        </md-card-title>
+        <!-- / NOTE CHECKLIST -->
+
+
+                <!-- NOTE LABELS -->
+                <div class="labels" ng-if="MsPreferencesItem.note.preferenceType" layout="row" layout-wrap   layout-align="end start">
+                    <div class="label"
+
+                         ng-class="vm.labels.getById(labelId).color">
+                        {{MsPreferencesItem.note.preferenceType}}
+                    </div>
+                </div>
+                <!-- / NOTE LABELS -->
+
+
+        <!-- NOTE REMINDER -->
+        <div ng-if="vm.noteListType ==='reminders' && MsPreferencesItem.note.reminder" class="reminder secondary-text text-right">
+            <md-icon md-font-icon="icon-bell" class="s16 mr-8"></md-icon>
+            <span>
+                {{MsPreferencesItem.note.reminder | altDate}}
+            </span>
+        </div>
+        <!-- / NOTE REMINDER -->
+
+    </md-card-content>
+</md-card>

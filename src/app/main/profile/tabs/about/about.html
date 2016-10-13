@@ -1,0 +1,272 @@
+<div layout="row" layout-wrap>
+
+    <!-- <div class="about" layout="column" flex="100" flex-gt-sm="50" flex-gt-md="65">
+
+
+
+
+    </div> -->
+
+
+        <!-- WIDGET 14 -->
+       <div class="about" layout="column" flex="100" flex-gt-sm="50" flex-gt-md="70">
+
+         <div class="profile-box info-box general md-whiteframe-1dp" layout="column">
+             <header class="md-accent-bg">
+                  <div class="title">Profile Details</div>
+             </header>
+             <div class="content">
+               <div layout="row" >
+                               <div flex="25">
+                                 <div class="membership-info summary-element">
+                                 <span>First Name</span>
+                                 {{vm.profile.first}}
+                                 </div>
+                               </div>
+                               <div flex="25">
+                                 <div class="membership-info summary-element">
+                                 <span>Last Name</span>
+                                 {{vm.profile.last}}
+                                 </div>
+                               </div>
+                               <div flex="25">
+                                 <div class="membership-info summary-element">
+                                 <span>Language</span>
+                                  {{vm.profile.language}}
+                                 </div>
+                               </div>
+                               <div flex="25">
+                                 <div class="membership-info summary-element">
+                                 <span>Date of Birth</span>
+                                  {{vm.profile.birthDate}}
+                                 </div>
+                               </div>
+                             </div>
+
+               <div layout="row"class="div-line">
+                               <div flex="75">
+                                 <div class="membership-info summary-element">
+                                 <span>Email Address</span>
+                                 {{vm.profile.email.value}}
+                                 </div>
+                               </div>
+                               <div flex="25">
+                                 <div class="membership-info summary-element">
+                                 <span>Phone Number</span>
+                                 {{vm.profile.phone.value}}
+                                 </div>
+                               </div>
+                             </div>
+                             <div layout="row">
+                               <div flex="75">
+                                 <div class="membership-info summary-element">
+                                 <span>Address</span>
+                                 {{vm.profile.addresses[0].address1}}<br ng-show = "vm.profile.addresses[0].address1 != ''">
+                                 {{vm.profile.addresses[0].address2}}<br ng-show = "vm.profile.addresses[0].address2 != ''">
+                                 {{vm.profile.addresses[0].address3}}<br ng-show = "vm.profile.addresses[0].address3 != ''">
+                                 {{vm.profile.addresses[0].address4}}<br ng-show = "vm.profile.addresses[0].address4 != ''">
+                                 </div>
+                               </div>
+                               <div flex="20">
+                               </div>
+                             </div>
+
+              </div>
+            </div>
+            <!-- <div class="profile-box info-box general md-whiteframe-1dp" layout="column"> -->
+                    <ms-widget layout="column" >
+
+                        <!-- Front -->
+                        <ms-widget-front class="white-bg">
+                            <div class="ph-16 pt-16 pb-4 md-accent-bg">
+                                <div class="h3">{{vm.addressWidget.title}}</div>
+                            </div>
+
+                            <md-tabs class="md-accent no-radius" md-dynamic-height>
+                                <md-tab label="{{tab.addressType}}" ng-repeat="tab in vm.addressWidget.tabs">
+
+                                  <div class="content">
+                                      <div layout="row" >
+                                                      <div flex="70">
+                                                        <div class="membership-info summary-element">
+                                                        <span>Address</span>
+                                                        {{tab.address1}}<br ng-show = "tab.address1 != ''">
+                                                        {{tab.address2}}<br ng-show = "tab.address2 != ''">
+                                                        {{tab.address3}}<br ng-show = "tab.address3 != ''">
+                                                        {{tab.address4}}<br ng-show = "tab.address4 != ''">
+                                                        </div>
+                                                      </div>
+                                                      <div flex="30">
+                                                        <div class="membership-info summary-element">
+                                                        <span>State</span>
+                                                        {{tab.state}}
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div layout="row">
+                                                      <div flex="70">
+                                                        <div class="membership-info summary-element">
+                                                        <span>City</span>
+                                                        {{tab.city}}
+                                                        </div>
+                                                      </div>
+                                                      <div flex="30">
+                                                        <div class="membership-info summary-element">
+                                                        <span>ZIP Code</span>
+                                                        {{tab.zipCode}}
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div layout="row">
+                                                      <div flex="70">
+                                                        <div class="membership-info summary-element">
+                                                        <span>Primary</span>
+                                                        {{tab.primary==true ? 'Yes' : 'No'}}
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+
+
+
+                                  </div>
+
+                                </md-tab>
+                            </md-tabs>
+
+                        </ms-widget-front>
+                        <!-- / Front -->
+
+                    </ms-widget>
+                    <!-- / WIDGET 14 -->
+
+                    <ms-widget layout="column" >
+
+                        <!-- Front -->
+                        <ms-widget-front class="white-bg">
+                            <div class="ph-16 pt-16 pb-4 md-accent-bg">
+                                <div class="h3">{{vm.communicationsWidget.title}}</div>
+                            </div>
+
+                            <md-tabs class="md-accent no-radius" md-dynamic-height>
+                                <md-tab label="{{tab.role}}" ng-repeat="tab in vm.communicationsWidget.tabs">
+
+                                  <div class="content">
+                                      <div layout="row" >
+                                                      <div flex="50">
+                                                        <div class="membership-info summary-element">
+                                                        <span>Type</span>
+                                                        {{tab.type}}
+                                                        </div>
+                                                      </div>
+
+                                                      <div flex="50">
+                                                        <div class="membership-info summary-element">
+                                                        <span>Value</span>
+                                                        {{tab.value}}
+                                                        </div>
+                                                      </div>
+
+                                                    </div>
+
+                                                    <div layout="row">
+                                                      <div flex="50">
+                                                        <div class="membership-info summary-element">
+                                                        <span>Primary</span>
+                                                        {{tab.primary==true ? 'Yes' : 'No'}}
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+
+                                  </div>
+
+                                </md-tab>
+                            </md-tabs>
+
+                        </ms-widget-front>
+                        <!-- / Front -->
+
+                    </ms-widget>
+                    <!-- / WIDGET 14 -->
+
+          </div>
+
+    <div class="about-sidebar" layout="column" flex="100" flex-gt-sm="50" flex-gt-md="30" >
+
+      <div class="profile-box info-box md-whiteframe-1dp " layout="column" >
+          <header class="md-accent-bg" layout="row" layout-align="space-between center">
+              <div class="title">Revenue KPIs</div>
+          </header>
+          <div class="content">
+            <div layout="row" >
+                            <div flex="50">
+                              <div class="membership-info summary-element">
+                              <span>Room Revenue</span>
+                              ${{vm.room_revenue}}
+                              </div>
+                        </div>
+                            <div flex="50">
+                              <div class="membership-info summary-element">
+                              <span>Food Revenue</span>
+                              ${{vm.food_revenue}}
+                              </div>
+                            </div>
+            </div>
+            <div layout="row" >
+                            <div flex="50">
+                              <div class="membership-info summary-element">
+                              <span>Other Revenue</span>
+                              ${{vm.other_revenue}}
+                              </div>
+                        </div>
+                        <div flex="50">
+                          <div class="membership-info summary-element">
+                          <span>Total Revenue</span>
+                          ${{vm.total_revenue}}
+                          </div>
+                    </div>
+                            </div>
+                          <div layout="row" >
+
+                                          <div flex="50">
+                                            <div class="membership-info summary-element">
+                                            <span>ADR</span>
+                                            ${{vm.avgRate}}
+                                            </div>
+                                          </div>
+                                        </div>
+                  </div>
+          <!-- <div class="content">
+            <div class="left" ng-repeat="item in vm.profile.socials">
+              <a ng-href={{item.url}}>
+                <i ng-class="vm.getIconClass(item.icon)"></i>
+              </a>
+            </div>
+          </div> -->
+
+      </div>
+        <div class="profile-box info-box md-whiteframe-1dp social" layout="column" >
+            <header class="md-accent-bg" layout="row" layout-align="space-between center">
+                <div class="title">Social Media Accounts</div>
+            </header>
+            <div class="content" layout="row" layout-wrap>
+    <div class="friend" flex="20" ng-repeat="item in vm.profile.socials">
+      <a ng-href={{item.url}}>
+        <i ng-class="vm.getIconClass(item.icon)"></i>
+      </a>
+    </div>
+</div>
+            <!-- <div class="content">
+              <div class="left" ng-repeat="item in vm.profile.socials">
+                <a ng-href={{item.url}}>
+                  <i ng-class="vm.getIconClass(item.icon)"></i>
+                </a>
+              </div>
+            </div> -->
+
+        </div>
+
+    </div>
+
+</div>

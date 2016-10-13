@@ -1,0 +1,20 @@
+.card-black {
+  //background-color: #000;
+  background: linear-gradient(#000, #4d4d4d);; /* Standard syntax */
+  color: #CCC !important;
+}
+
+.card-gold {
+  background: linear-gradient(#8c7a14, #584d0f);
+  color: #DDD !important;
+}
+
+.card-platinum {
+  background: linear-gradient(#8a8985, #9d9c99);
+  color: #EEE !important;
+}
+
+  .card-red {
+      background: linear-gradient(#8c1414, #af2424);
+      color: #DDD !important;
+}

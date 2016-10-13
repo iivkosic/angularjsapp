@@ -1,0 +1,29 @@
+/**
+ *  Do not remove this comments bellow. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+// bower:scss
+// endbower
+
+/**
+ *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector
+/*
+ * Base structure
+ */
+
+ #vertical-navigation .navigation-header {
+     height: 96px;
+     min-height: 96px;
+     background-color: rgba(255, 255, 255, 0.05);
+     padding: 8px 16px 8px 16px;
+}
+
+[ng-click],
+[data-ng-click],
+[x-ng-click] {
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+
+
+  <div layout = "row" class="profile-summary main-padding">
+  							<div flex="25">
+  						<div class="email-info summary-element">
+  						<span>Email Address</span>
+  						{{vm.profile.email.value ? vm.profile.email.value : '&nbsp'}}
+  						</div>
+  					</div>
+  						<div flex="25">
+  						<div class="phone-info summary-element">
+  						<span>Phone Number</span>
+  						{{vm.profile.phone.value}}
+  						</div>
+  					</div>
+  						<div flex="25">
+  						<div class="membership-info summary-element">
+  						<span>Membership Level</span>
+  					  {{vm.profile.memberships[0].level}}
+  						</div>
+  					</div>
+            <div flex="25">
+            <div class="membership-info summary-element">
+            <span>Membership No.</span>
+            {{vm.profile.memberships[0].cardNumber}}
+            </div>
+          </div>
+  			</div>
+        <div flex-gt-xs class="activity">
+           Select activity date:
+          <md-datepicker ng-model="vm.myDate" md-placeholder="Choose date"
+              md-min-date="vm.minTimelineDate" md-max-date="vm.maxTimelineDate"
+              ng-change="vm.scrollTo(vm.myDate)"
+              ></md-datepicker>
+        </div>
+        <div id="timeline" layout-column flex ms-timeline ms-timeline-load-more="vm.timelineLoadNextPage()">
+
+            <!-- TIMELINE ITEM -->
+
+            <div ms-timeline-item layout="column" layout-align="center center" layout-gt-md="row"
+                 layout-align-gt-md="center start"
+                 ng-repeat="timelineItem in vm.timeline">
+                <a name="{{timelineItem.time}}"></a>
+                <div class="timeline-card" layout="row" flex="50">
+                    <!-- MS-CARD -->
+                    <ms-card template="timelineItem.card.template" ng-model="timelineItem.card"></ms-card>
+                    <!-- / MS-CARD -->
+                </div>
+
+                <div class="timeline-point md-accent-bg md-whiteframe-2dp">
+                    <md-icon md-font-icon="{{timelineItem.icon}}"></md-icon>
+                </div>
+
+                <div class="timeline-detail" flex="50">
+                    <div class="time">
+                        {{timelineItem.time}}
+                    </div>
+                    <div class="event">
+                        {{timelineItem.event}}
+                    </div>
+                </div>
+            </div>
+            <!-- / TIMELINE ITEM -->
+
+        </div>

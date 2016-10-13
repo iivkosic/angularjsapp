@@ -1,0 +1,179 @@
+
+<div id="search" class="page-layout simple">
+  <!-- HEADER -->
+<div class="header md-accent-bg" layout="row" layout-align="space-between center">
+
+    <!-- APP TITLE -->
+    <div layout="row" layout-align="start center">
+
+        <div class="logo" layout="row" layout-align="start center">
+            <span class="logo-icon">
+                <md-icon md-font-icon="icon-account-box" class="s24"></md-icon>
+            </span>
+            <span class="logo-text">Profiles</span>
+        </div>
+        <form ng-submit="vm.search_profiles(vm.searchName)">
+          <!-- SEARCH -->
+          <div class="search-input-wrapper" layout="row" layout-align="start center">
+              <label for="search">
+                  <md-icon md-font-icon="icon-magnify"></md-icon>
+              </label>
+              <md-input-container md-no-float class="m-0">
+                  <input id="search" placeholder="Search for anyone" type="text" ng-model="vm.searchName">
+              </md-input-container>
+          </div>
+        </form>
+    </div>
+    <!-- / APP TITLE -->
+
+    <div layout="row" layout-align="start center">
+        <md-switch ng-model="vm.advancedSearch" aria-label="Advanced Search?">Advanced Search</md-switch>
+
+    </div>
+
+    <!-- / SEARCH -->
+
+</div>
+<!-- / HEADER -->
+
+<!-- CONTENT -->
+
+    <div class="content search-container">
+<!-- <div class="search-container"> -->
+
+<div class="advanced-search-container" ng-if="vm.advancedSearch">
+    <form ng-submit="vm.advanced_search_profiles()">
+          <div class="content">
+            <div layout="row" >
+              <div flex="25">
+                <div class="input-group">
+
+                  <md-input-container>
+                    <label>First name</label>
+                    <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.first">
+                  </md-input-container>
+                  <md-input-container>
+                    <label>Last name</label>
+                    <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.last">
+                  </md-input-container>
+                  <md-input-container>
+                    <label>City</label>
+                    <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.city">
+                  </md-input-container>
+
+          <!-- <label>Last name</label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.last">
+          <label>City</label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search" ng-model="vm.city">
+          <label>Country</label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search" ng-model="vm.country">
+          <label>Email</label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search" ng-model="vm.email">
+          <label>Tags</label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search" ng-model="vm.tags"> -->
+        </div>
+        </div>
+        <div flex="25">
+          <div class="input-group">
+            <md-input-container>
+              <label>Country</label>
+              <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.country">
+            </md-input-container>
+            <md-input-container>
+              <label>Email</label>
+              <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.email">
+            </md-input-container>
+            <md-input-container>
+              <label>Tags</label>
+              <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.tags">
+            </md-input-container>
+
+
+</div>
+  </div>
+  <div flex="25">
+    <div class="input-group">
+      <md-input-container>
+        <label>Card number</label>
+        <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.cardNumber">
+      </md-input-container>
+      <md-input-container>
+        <label>Level</label>
+        <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.level">
+      </md-input-container>
+      <md-input-container>
+        <label>Enrollment code </label>
+        <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.enrollmentCode">
+      </md-input-container>
+
+</div>
+  </div>
+        <div flex="25">
+          <div class="input-group">
+            <md-input-container>
+              <label>Resort Id</label>
+              <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.resortId">
+            </md-input-container>
+            <md-input-container>
+              <label>Preference</label>
+              <input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search"  ng-model="vm.preference">
+            </md-input-container>
+          <!-- <label>Card number</label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search" ng-model="vm.cardNumber">
+          <label>Level</label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search" ng-model="vm.level">
+          <label>Enrollment code </label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search" ng-model="vm.enrollmentCode">
+          <label>Resort Id</label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search" ng-model="vm.resortId">
+          <label>Preference</label><input type="text" ng-keyup="$event.keyCode == 13 && vm.advanced_search_profiles()" class="form-control search" ng-model="vm.preference"> -->
+        </div>
+        </div>
+        </div>
+      </div>
+    </form>
+</div>
+<div class="serach_results">
+<table datatable="ng" dt-options="vm.dtOptions" dt-instance="vm.dtInstance" id="search" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th></th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Membership Level</th>
+                <th>Membership No.</th>
+                <th>Profile Completeness</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="person in ::vm.profiles" ng-click="vm.select(person.id)">
+                <td><img class="profile-pic" src="./assets/images/avatars/profile.jpg" height="40" width="40"></td>
+                <td>{{person.first}}</td>
+                <td>{{person.last}}</td>
+                <td>{{person.email}}</td>
+                <td>{{person.memberships[0].level}}</td>
+                <td>{{person.memberships[0].cardNumber}}<span></td>
+                <td> <div ng-class="vm.getValueClass(person.completeness)"
+                    ng-style="{ 'width': person.completeness + '%' }">
+                    {{person.completeness}}%</div></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+
+<!-- ADD CONTACT BUTTON -->
+<md-button class="md-fab md-accent md-icon-button" id="add-contact-button" ng-click="vm.openProfileDialog($event)"
+           aria-label="add profile" >
+    <md-icon md-font-icon="icon-account-plus"></md-icon>
+</md-button>
+<!-- / ADD CONTACT BUTTON -->
+
+</div>
+<script>
+$(document).ready(function(){
+	$('.dataTables_filter').addClass('col-md-12');
+	// $('#search').dataTable( {
+  //   language: {
+  //       search: "_INPUT_",
+  //       searchPlaceholder: "Who are you searching for?"
+  //   },
+	// "bPaginate": false,
+	// });
+});
+</script>
+        <!-- </div>
+      </div>
+    </div> -->

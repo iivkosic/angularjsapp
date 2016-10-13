@@ -1,0 +1,300 @@
+#profile {
+
+  .member-id {
+  	font-size: 13px;
+  	font-weight: 400;
+  	color: #fff;
+  	opacity: 0.5;
+  }
+   h1 {
+  	font-size: 34px;
+  	margin-top: 4px;
+  	margin-bottom: 2px;
+  	font-weight: 400;
+  	color: #fff;
+  }
+  .detail-main {
+  	float: left;
+  	width: 60px;
+  	color: #fff;
+  	font-size: 13px;
+  	text-align: center;
+  	border-right: 1px solid #c53a3a;
+  }
+
+    .header {
+        height: 135px !important;
+        min-height: 135px !important;
+        max-height: 200px !important;
+        //background-color: #f84a4a;
+        //background-color: #03a9f4
+        background-image: none;
+        background-size: 100% auto;
+
+        .profile-image {
+            margin-right: 24px;
+        }
+
+        .name {
+            font-size: 34px;
+            color: #FFFFFF;
+        }
+
+        .actions {
+
+            .md-button {
+                text-transform: none;
+                padding: 0 16px;
+                height: 32px;
+                line-height: 32px;
+                margin: 0 0 0 8px;
+            }
+        }
+    }
+
+    .content {
+
+        md-content {
+            background-color: transparent;
+        }
+    }
+
+    // Profile boxes
+    .profile-box {
+        margin-bottom: 16px;
+
+        header {
+            padding: 16px;
+
+            .title {
+                font-size: 15px;
+            }
+
+            .more {
+                cursor: pointer;
+            }
+        }
+
+        .content {
+            padding: 16px;
+            background-color: #FFF;
+        }
+
+        footer {
+            padding: 8px;
+            border-top: 1px solid rgba(0, 0, 0, 0.08);
+            background-color: rgba(0, 0, 0, 0.06);
+        }
+
+        &.info-box {
+
+            .info-line {
+                margin-bottom: 24px;
+
+                .title {
+                    font-size: 15px;
+                    font-weight: 500;
+                    padding-bottom: 4px;
+                }
+
+                .info {
+
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+
+// RESPONSIVE
+@media screen and (max-width: $layout-breakpoint-sm) {
+
+    #profile {
+
+        .header {
+
+            .profile-image {
+                margin: 0 0 16px 0;
+            }
+
+            .name {
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+}
+
+.content.ng-scope {
+  padding: 10px;
+}
+
+#profile .ms-widget {
+    padding: 0px 0px 16px 0px !important;
+}
+
+md-tabs.md-default-theme.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-ink-bar, md-tabs.md-accent > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-ink-bar {
+    // color: #e54d03;
+    // background: #e54d03;
+    color: #fff;
+    background: #fff;
+}
+
+.membership-card.ms-widget .ms-widget-front {
+    border-radius: 15px;
+    min-width: 480px;
+    max-width: 480px;
+}
+
+.md-display-1 {
+    font-size: 22px;
+    // color:black;
+}
+
+.p-16 .secondary-text {
+  font-size:1rem;
+  // color: black !important;
+}
+
+
+.about .h3 {
+  font-size: 15px;
+}
+
+.about .md-tab {
+  font-size: 13px;
+}
+
+#profile .p-16 {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.verticalLine {
+    border-left: 1px solid #ffffff  ;
+}
+// .membership-card .ms-widget-front {
+//     padding: 110px 30px 50px 20px;
+// }
+
+.profile-info {
+  padding: 16px;
+}
+
+/*PROFILE COMPLETENESS*/
+$color-back: #efefef;
+$color-bar: #0BF;
+
+// *{
+//   box-sizing: border-box;
+// }
+
+// :root{
+//   margin: 2rem auto;
+//   width: 50%;
+//   text-align: center;
+// }
+
+
+
+// background-color: #ff4c4c;
+// background-color: #fbb034;
+
+.avatar-container{
+
+  position: relative;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 110px;
+  width: 110px;
+  padding: 0;
+  margin: 3rem auto;
+  border: none;
+  background: $color-back;
+  cursor: pointer;
+
+  .avatar{
+    display: block;
+    margin: 10px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    z-index: 100;
+
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .info{
+    display: none;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    background: rgba($color-bar,.2);
+    //background: rgba(45,50,62,0.2);
+    color: white;
+    z-index: 1000;
+
+    &.js-active{
+      display: table;
+    }
+
+    .info-inner{
+      display: table-cell;
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}
+
+/**
+* Function to generate procentual progress classes
+* .p-1 1% -> p-100 100%
+**/
+$step: 1;
+$loops: round(100 / $step); //100
+$increment: 360 / $loops; //3.6
+$half: round($loops / 2); //50
+
+@for $i from 1 through $loops {
+
+  .p-av-#{$i*$step} {
+
+    @if $i < $half {
+      $nextdeg: 90deg +  ( $increment * $i ) ;
+
+      @if $i*$step < 50 {
+        background-image: linear-gradient(90deg, $color-back 50%, transparent 50%, transparent), linear-gradient($nextdeg, #ff4c4c 50%, $color-back 50%, $color-back);
+      } @else  if $i*$step < 75{
+        background-image: linear-gradient(90deg, $color-back 50%, transparent 50%, transparent), linear-gradient($nextdeg, #fbb034 50%, $color-back 50%, $color-back);
+      } @else {
+        background-image: linear-gradient(90deg, $color-back 50%, transparent 50%, transparent), linear-gradient($nextdeg, #34bf49 50%, $color-back 50%, $color-back);
+      }
+
+    } @else {
+
+      $nextdeg: -90deg + ( $increment * ( $i - $half ) );
+
+      @if $i*$step < 50 {
+        background-image: linear-gradient($nextdeg, #ff4c4c 50%, transparent 50%, transparent), linear-gradient(270deg, #ff4c4c 50%, $color-back 50%, $color-back);
+      } @else  if $i*$step < 75{
+        background-image: linear-gradient($nextdeg, #fbb034 50%, transparent 50%, transparent), linear-gradient(270deg, #fbb034 50%, $color-back 50%, $color-back);
+      } @else {
+        background-image: linear-gradient($nextdeg, #34bf49 50%, transparent 50%, transparent), linear-gradient(270deg, #34bf49 50%, $color-back 50%, $color-back);
+      }
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+#preferences, #notes, #tags {
+  min-height: 1000px;
+}
+
+
+#profile {
+
+    .preferences-tab {
+        max-width: 100%;
+
+      }
+      .notes-tab {
+          max-width: 100%;
+
+        }
+    }
+
+.page-layout.simple.tabbed > .content > md-tabs > md-tabs-content-wrapper > md-tab-content {
+       padding: 0px !important;
+    }
+
+
+#profile .about-tab {
+  padding: 16px !important;
+}

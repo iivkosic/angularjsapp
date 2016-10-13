@@ -1,0 +1,35 @@
+
+<div id="tags" class="" layout="column">
+
+  <md-content ms-scroll flex>
+
+    <!-- <form ng-submit="vm.addTag()">
+            <input type="text" class="tags" ng-model="vm.newTag"  size="30"
+                   placeholder="add new tag here">
+          </form>
+
+  <div class="tags-list">
+    <span class="text-boxed m-0 white-fg" ng-repeat="tag in vm.profile.tags">{{tag}}
+    </span>
+
+  </div> -->
+
+
+
+
+    <md-chips ng-model="vm.profile.tags" md-autocomplete-snap
+              md-transform-chip="vm.transformChip($chip)"
+              md-require-match="false">
+               <button md-chip-remove class="md-primary md-chip-remove" ng-click="vm.deleteTag($chip)">
+                 <md-icon md-font-icon="icon-close" class="icon"></md-icon> </button>
+      <md-autocomplete
+          md-selected-item="vm.selectedTag"
+          md-search-text="vm.searchTagText"
+          md-items="item in vm.querySearch(vm.searchTagText)"
+          md-item-text="item.name"
+          placeholder="Add new tag here">
+        <span md-highlight-text="vm.searchText">{{item.name}}</span>
+      </md-autocomplete>
+    </md-chips>
+  </md-content>
+</div>

@@ -1,0 +1,38 @@
+<div class="md-inline-form">
+
+    <div layout="column" layout-gt-xs="row" flex>
+        <md-input-container flex="100" flex-gt-xs="100">
+            <input type="text" name="address1" ng-model="vm.horizontalStepper.step2.address1"
+                   placeholder="Address Line 1">
+        </md-input-container>
+    </div>
+
+    <div layout="column" layout-gt-xs="row" flex>
+        <md-input-container flex="100" flex-gt-xs="100">
+            <input type="text" name="address1" ng-model="vm.horizontalStepper.step2.address2"
+                   placeholder="Address Line 2">
+        </md-input-container>
+    </div>
+
+    <div layout="column" layout-gt-xs="row" flex>
+        <md-input-container flex="100" flex-gt-xs="50">
+            <input type="text" name="address1" ng-model="vm.horizontalStepper.step2.city"
+                   placeholder="City">
+        </md-input-container>
+
+        <!-- <md-input-container flex="100" flex-gt-xs="50">
+            <input type="text" name="address1" ng-model="vm.horizontalStepper.step2.country"
+                   placeholder="Country">
+        </md-input-container> -->
+
+        <md-input-container flex="100" flex-gt-xs="50">
+                <label>Country</label>
+                <md-select ng-model="vm.horizontalStepper.step2.country">
+                  <md-option ng-repeat="country in vm.countries" ng-value="country.code">
+                    {{country.name}}
+                  </md-option>
+                </md-select>
+              </md-input-container>
+
+    </div>
+</div>

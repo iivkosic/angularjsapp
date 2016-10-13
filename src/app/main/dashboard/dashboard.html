@@ -1,0 +1,104 @@
+<div id="dashboard">
+
+    <!-- WIDGETS -->
+    <div id="widgets">
+
+
+          <!-- WIDGET GROUP -->
+                      <div class="widget-group" layout="row" flex="100" layout-wrap>
+
+                        <!-- WIDGET MAP -->
+                        <ms-widget layout="column" flex="100" flex-gt-sm="66">
+
+                            <!-- Front -->
+                            <ms-widget-front class="white-bg">
+
+                                <div class="ph-16 border-bottom tb-16" layout="row" layout-align="space-between center">
+                                    <div class="h3">Budget Distribution</div>
+
+                                </div>
+
+                                <div class="p-16" >
+                                  <div google-chart chart="vm.chart"></div>
+                                  <!-- <div id="regions_div" style="width:100%;"></div> -->
+
+                                </div>
+
+                            </ms-widget-front>
+                            <!-- / Front -->
+
+                        </ms-widget>
+                        <!-- / WIDGET MAP -->
+
+                          <!-- WIDGET TAGS -->
+                          <ms-widget layout="column" flex="100" flex-gt-sm="33">
+
+                              <!-- Front -->
+                              <ms-widget-front class="white-bg">
+
+                                  <div class="ph-16 border-bottom tb-16" layout="row" layout-align="space-between center">
+                                      <div class="h3">{{vm.widgetTags.title}}</div>
+
+                                  </div>
+
+                                  <div class="p-16">
+                                      <nvd3 class="h-400"
+                                            config="vm.widgetTags.mainChart.config"
+                                            options="vm.widgetTags.mainChart.options"
+                                            data="vm.widgetTags.mainChart.data"></nvd3>
+                                  </div>
+
+                              </ms-widget-front>
+                              <!-- / Front -->
+
+                          </ms-widget>
+                          <!-- / WIDGET TAGS -->
+
+
+    </div>
+
+    <!-- WIDGET GROUP -->
+            <div class="widget-group" layout="row" flex="100" layout-wrap>
+
+                <!-- WIDGET 4 -->
+                <ms-widget flippable="false" layout="row" flex="100">
+
+                    <!-- Front -->
+                    <ms-widget-front class="white-bg">
+                        <div class="ph-16 pt-16 pb-8 md-accent-bg">
+                            <div class="h3">{{vm.widget4.title}}</div>
+                        </div>
+                                <div layout="row" layout-align="start center" layout-wrap>
+
+                                    <div flex="100" flex-gt-xs="50" flex-gt-md="33"
+                                         ng-repeat="group in vm.widget4.groups">
+                                        <div class="h2 m-16 pb-16 border-bottom">{{group.title}}
+<span class="h3 secondary-text font-weight-500">({{group.total}})</span>
+                                        </div>
+
+                                        <div class="p-16 pb-32" ng-repeat="data in group.data">
+                                            <div class="pb-8" layout="row" layout-align="space-between start">
+                                                <span class="h3">{{data.title}}</span>
+                                                <span class="h3 secondary-text font-weight-500"></span>
+                                                <span class="h3 secondary-text font-weight-500">{{data.value}}% ({{data.count}}) </span>
+                                            </div>
+                                            <md-progress-linear class="{{data.progressColor}}" md-mode="determinate"
+                                                                value="{{data.value}}"></md-progress-linear>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                    </ms-widget-front>
+                    <!-- / Front -->
+
+                </ms-widget>
+                <!-- / WIDGET 4 -->
+
+            </div>
+            <!-- / WIDGET GROUP -->
+
+</div>
+
+</div>
